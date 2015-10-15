@@ -278,10 +278,9 @@ p {
 }
 .media-icon {
     width: 4em;
-    margin: 0 .3em;
+    margin: .4em .3em;
 }
 .front {
-    background-color: rgba(166, 139, 174, 0.5);
     padding: 1em 1em 3em;
     position: relative;
     z-index: 2;
@@ -465,10 +464,10 @@ p {
     position: absolute;
     right:1em;
     top:1em;
-    width: 9em;
+    width: 10em;
 }
 .media-icon {
-    width: 4.5em;
+    width: 4em;
     margin: 0 .3em;
 }
 .eyes {
@@ -653,11 +652,10 @@ p {
     top:7em;
 }
 .front {
-    background-color: rgba(166, 139, 174, 0.5);
     padding: 3em 1em 3em;
     position: relative;
     z-index: 2;
-    top:3em; 
+    top:1em; 
 }
 .gallery {
     height: 55em;
@@ -872,11 +870,10 @@ p {
     top:84em;
 }
 .front {
-    background-color: rgba(166, 139, 174, 0.5);
     padding: 1em 1em 3em;
     position: relative;
     z-index: 2;
-    top:3em; 
+    top:1em; 
 }
 .gallery {
     height: 55em;
