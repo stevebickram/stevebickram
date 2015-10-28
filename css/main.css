@@ -1011,7 +1011,7 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: 1;
-    top: -6em;
+    top: -10em;
 }
 .background-5:hover {
     background-image: url(../images/background-4-B.png);
