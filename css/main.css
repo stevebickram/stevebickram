@@ -1002,7 +1002,6 @@ p {
     height: 40em;
     background-repeat: no-repeat;
     top:0;
-    right: .2em;
     z-index: 2;
 }
 .background-4:hover {
