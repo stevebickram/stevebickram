@@ -1020,11 +1020,13 @@ p {
     top:0em;
 }
 .front {
-    padding: 1em 20% 3em;
+    padding: 1em 3em 3em;
     position: relative;
     z-index: 2;
-    top:1em; 
-    
+    top:1em;    
+}
+.intro-p {
+    padding: 0 18em;    
 }
 .gallery {
     position: relative;
