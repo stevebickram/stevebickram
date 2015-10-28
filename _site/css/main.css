@@ -1011,7 +1011,7 @@ p {
 .background-5 {
     background-image: url(../images/background-4.png);
     background-size: 100%;
-    height: 40em;
+    height: 0em;
     background-repeat: no-repeat;
     top:-28.5em;
     z-index: 1;
