@@ -1010,7 +1010,7 @@ p {
 }
 .background-2 {
     background-image: url(../images/background-1.png);
-    height: 50em;
+    height: 30em;
     overflow:hidden;
     position: relative;
 }
@@ -1019,16 +1019,16 @@ p {
 }
 .background-3 {
     background-image: url(../images/background-2b.png);
-    height: 35em;
+    height: 30em;
     position: relative;
-    top: -5em;
+    top: -15em;
 }
 .background-3:hover {
     background-image: url(../images/background-2b-B.png);
 }
 .background-4 {
     background-image: url(../images/background-3b.png);
-    height: 50em;
+    height: 30em;
     background-repeat: no-repeat;
     position: relative;
     top:0;
@@ -1038,9 +1038,9 @@ p {
 }
 .background-5 {
     background-image: url(../images/background-4.png);
-    height: 55em;
+    height: 56em;
     position: relative;
-    top: -5em;
+    top: -15em;
     overflow: hidden;
 }
 .background-5:hover {
