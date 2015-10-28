@@ -1020,7 +1020,7 @@ p {
     top:0em;
 }
 .front {
-    padding: 1em 18em 3em;
+    padding: 1em 20% 3em;
     position: relative;
     z-index: 2;
     top:1em; 
