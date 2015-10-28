@@ -981,7 +981,7 @@ p {
 .background-2 {
     background-image: url(../images/background-1.png);
     background-size: 100%;
-    background-repeat: no-repeat;
+  overflow:hidden; 
 }
 .background-2:hover {
     background-image: url(../images/background-1-B.png);
