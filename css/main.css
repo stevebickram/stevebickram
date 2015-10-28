@@ -1029,6 +1029,7 @@ p {
     position: relative;
     z-index: 2;
     top:1em; 
+    width: 60%;
 }
 .gallery {
     position: relative;
