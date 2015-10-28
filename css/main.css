@@ -1010,6 +1010,7 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: 1;
+    position: relative;
     top: -22em;
 }
 .background-5:hover {
