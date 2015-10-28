@@ -1013,7 +1013,7 @@ p {
     height: 40em;
     background-repeat: no-repeat;
     z-index: 1;
-    top: 10;
+    top: -6em;
 }
 .background-5:hover {
     background-image: url(../images/background-4-B.png);
