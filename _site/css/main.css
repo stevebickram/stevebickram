@@ -989,7 +989,6 @@ p {
 .background-3 {
     background-image: url(../images/background-2b.png);
     background-size: 100%;
-    position: relative;
 }
 .background-3:hover {
     background-image: url(../images/background-2b-B.png);
