@@ -409,7 +409,7 @@ p {
     position: relative;
     color: #8e76af;
     text-align: center;
-    top: -12em;
+    top: -25em;
 }
 .contact3 {
     overflow: hidden;
@@ -1038,7 +1038,7 @@ p {
 }
 .background-5 {
     background-image: url(../images/background-4.png);
-    height: 56em;
+    height: 50em;
     position: relative;
     top: -15em;
     overflow: hidden;
