@@ -426,15 +426,10 @@ p {
     text-align: center;
     padding: 2em 5em;
 }
-.down {
-    background: none;
-    border: 2px;
-    width: 3em;
-    position: relative;
-    top: 2em;
-}
+
 .arrow2 {
     width: 3em;
+    padding-bottom: 4em;
 }
 .illustration-1 {
   position: relative;
