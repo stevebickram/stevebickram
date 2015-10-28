@@ -1011,7 +1011,7 @@ p {
     background-repeat: no-repeat;
     z-index: 1;
     position: relative;
-    top: -22em;
+    top: -21em;
 }
 .background-5:hover {
     background-image: url(../images/background-4-B.png);
