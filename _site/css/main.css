@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     margin: 0;
     overflow-x: hidden;
     overflow-y: auto;
@@ -329,7 +329,7 @@ p {
   position: relative;
 }
 .gallery {
-    height: 55em;
+    height: 100%;
     position: relative;
     top:-25em;
     background-color: white;
@@ -355,7 +355,7 @@ p {
     background-size: 100%;
     height: 40em;
     position: relative;
-    top: -28.5em;
+    top: -29em;
     background-repeat: no-repeat;
 }
 .background-3:hover {
@@ -409,14 +409,7 @@ p {
     position: relative;
     color: #8e76af;
     text-align: center;
-    top: -25em;
-}
-.contact2 {
-    overflow: hidden;
-    width:50%;
-    position: relative;
-    color: #8e76af;
-    text-align: center;   
+    top: -8em;
 }
 .contact3 {
     overflow: hidden;
@@ -716,9 +709,9 @@ p {
 .background-2 {
     background-image: url(../images/background-1.png);
     background-size: 100%;
-    height: 50em;
+    height: 45em;
     background-repeat: no-repeat;
-    position: relative;
+    overflow:hidden; 
 }
 .background-2:hover {
     background-image: url(../images/background-1-B.png);
@@ -726,30 +719,30 @@ p {
 .background-3 {
     background-image: url(../images/background-2.png);
     background-size: 100%;
-    height: 50em;
-    position: relative;
-    top: -28.5em;
+    height: 45em;
     background-repeat: no-repeat;
+    overflow:hidden; 
+
 }
 .background-3:hover {
     background-image: url(../images/background-2-B.png);
 }
 .background-4 {
     background-image: url(../images/background-3.png);
-    height: 30%;
+    background-size: 100%;
+    height: 45em;
     background-repeat: no-repeat;
-    position: relative;
-    top: -57.5em;
+    overflow:hidden; 
 }
 .background-4:hover {
     background-image: url(../images/background-3-B.png);
 }
 .background-5 {
     background-image: url(../images/background-4.png);
-    background-size: 30%;
+    background-size: 100%;
+    height: 45em;
     background-repeat: no-repeat;
-    position: relative;
-    top: -83em;
+    overflow:hidden; 
 }
 .background-5:hover {
     background-image: url(../images/background-4-B.png);
@@ -760,7 +753,7 @@ p {
     position: relative;
     color: #8e76af;
     text-align: center;
-    top:18em;
+    top:8em;
 }
 .front {
     padding: 3em 1em 3em;
@@ -769,9 +762,10 @@ p {
     top:1em; 
 }
 .gallery {
-    height: 55em;
     position: relative;
     top: 5em;
+    overflow: hidden; 
+    height: 75em;
 }
 }
 @media only screen and (min-width: 60em) {
@@ -1016,38 +1010,38 @@ p {
 }
 .background-2 {
     background-image: url(../images/background-1.png);
-    background-size: 100%;
-    overflow:hidden; 
+    height: 30em;
+    overflow:hidden;
+    position: relative;
 }
 .background-2:hover {
     background-image: url(../images/background-1-B.png);
 }
 .background-3 {
     background-image: url(../images/background-2b.png);
-    background-size: 100%;
+    height: 30em;
     position: relative;
-    top: -22em;
+    top: -15em;
 }
 .background-3:hover {
     background-image: url(../images/background-2b-B.png);
 }
 .background-4 {
     background-image: url(../images/background-3b.png);
-    background-size: 100%;
+    height: 30em;
     background-repeat: no-repeat;
+    position: relative;
     top:0;
-    z-index: 2;
 }
 .background-4:hover {
     background-image: url(../images/background-3b-B.png);
 }
 .background-5 {
     background-image: url(../images/background-4.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    z-index: 1;
+    height: 50em;
     position: relative;
-    top: -22em;
+    top: -15em;
+    overflow: hidden;
 }
 .background-5:hover {
     background-image: url(../images/background-4-B.png);
@@ -1072,10 +1066,9 @@ p {
 .gallery {
     position: relative;
     display: block;
-    width: 100%;
+    height: 100%;
     background-color: white;
 }
-
 .nav {
     list-style-type: none;
     position:absolute;
@@ -1097,5 +1090,25 @@ p {
 }
 .nav: .nav-current:visited{
     color:white;
+}
+.button1 {
+    display: block;
+    height:100%;
+    text-align: right;
+}
+.button2 {
+    display: block;
+    height:100%;
+    text-align: right;
+}
+.button3 {
+    display: block;
+    height:60%;
+    text-align: right;
+}
+.button4 {
+    display: block;
+    height:100%;
+    text-align: right;
 }
 }
