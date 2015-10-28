@@ -1025,11 +1025,11 @@ p {
     top:0em;
 }
 .front {
-    padding: 1em 1em 3em;
+    padding: 1em 10em 3em;
     position: relative;
     z-index: 2;
     top:1em; 
-    width: 60%;
+    
 }
 .gallery {
     position: relative;
