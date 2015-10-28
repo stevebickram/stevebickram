@@ -999,7 +999,6 @@ p {
 .background-4 {
     background-image: url(../images/background-3b.png);
     background-size: 100%;
-    height: 30em;
     background-repeat: no-repeat;
     top:0;
     z-index: 2;
