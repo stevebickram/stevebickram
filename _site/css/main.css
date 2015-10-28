@@ -975,8 +975,9 @@ p {
 }
 .background-2 {
     background-image: url(../images/background-1.png);
+    height:40em;
     background-size: 100%;
-  overflow:hidden; 
+    overflow:hidden; 
 }
 .background-2:hover {
     background-image: url(../images/background-1-B.png);
@@ -984,6 +985,7 @@ p {
 .background-3 {
     background-image: url(../images/background-2b.png);
     background-size: 100%;
+    height:40em;
     position: relative;
     top: -22em;
 }
@@ -994,6 +996,7 @@ p {
     background-image: url(../images/background-3b.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    height:40em;
     top:0;
     z-index: 2;
 }
@@ -1002,7 +1005,7 @@ p {
 }
 .background-5 {
     background-image: url(../images/background-4.png);
-    background-size: 100%;
+    height:40em;
     background-repeat: no-repeat;
     z-index: 1;
     position: relative;
