@@ -1021,7 +1021,7 @@ p {
     background-image: url(../images/background-2b.png);
     height: 35em;
     position: relative;
-    top: -5em;
+    top: -15em;
 }
 .background-3:hover {
     background-image: url(../images/background-2b-B.png);
@@ -1040,7 +1040,7 @@ p {
     background-image: url(../images/background-4.png);
     height: 55em;
     position: relative;
-    top: -5em;
+    top: -15em;
     overflow: hidden;
 }
 .background-5:hover {
