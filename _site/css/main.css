@@ -1112,7 +1112,13 @@ p {
     text-align: right;
 }
 .media-icon {
-    width: 8em;
+    width: 7em;
     margin: 0 .3em;
+}
+.social {
+    position: absolute;
+    right:1em;
+    top:1em;
+    width: 16em;
 }
 }
