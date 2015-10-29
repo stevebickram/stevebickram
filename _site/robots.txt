@@ -1,2 +1,2 @@
-Sitemap: http://stevebickram.github.io/stevebickram/
+Sitemap: http://stevebickram.github.io/stevebickram/sitemap.xtml
 User-Agent: *
