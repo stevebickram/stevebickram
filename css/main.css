@@ -1111,4 +1111,8 @@ p {
     height:100%;
     text-align: right;
 }
+.media-icon {
+    width: 6em;
+    margin: 0 .3em;
+}
 }
