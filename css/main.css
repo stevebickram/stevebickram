@@ -316,7 +316,7 @@ p {
 }
 .logo {
   width: 10em;
-  position: relative;
+  position: absolute;
 }
 .gallery {
     height: 100%;
