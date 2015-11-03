@@ -281,8 +281,9 @@ p {
 }
 .nav {
     list-style-type: none;
-    position:absolute;
+    position:relative;
     left: 0;
+    top: 5em;
 }
 .nav a { 
     color: #947cb5;
