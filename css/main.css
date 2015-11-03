@@ -735,14 +735,7 @@ p {
 .background-5:hover {
     background-image: url(../images/background-4-B.png);
 }
-.contact {
-    overflow: hidden;
-    width:100%;
-    position: relative;
-    color: #8e76af;
-    text-align: center;
-    top:8em;
-}
+
 .front {
     padding: 3em 1em 3em;
     position: relative;
@@ -1041,14 +1034,7 @@ p {
 .background-5:hover {
     background-image: url(../images/background-4-B.png);
 }
-.contact {
-    overflow: hidden;
-    width:100%;
-    position: relative;
-    color: #8e76af;
-    text-align: center;
-    top: 9em;
-}
+
 .front {
     padding: 1em 3em 3em;
     position: relative;
