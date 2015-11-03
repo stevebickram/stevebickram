@@ -29,11 +29,9 @@ body {
     perspective: 1px;
     -webkit-perspective:1px;
 }
-
 img {
     width: 100%;
 }
-
 p {
     text-align: center;   
 }
@@ -47,7 +45,6 @@ p {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
-
 .back {
     transform: translateZ(-1px) scale(2);
     -webkit-transform: translateZ(-1px) scale(2);
@@ -61,7 +58,6 @@ p {
     top: calc(((100vh - 101.32vw ) /4 * -2));
     display:none;
 }
-
 .back3 {
     transform: translateZ(-1px) scale(2);
     -webkit-transform: translateZ(-1px) scale(2);
@@ -161,7 +157,6 @@ p {
      opacity:0;  
     }
 }
-
 .eyes-1c {
     transform: translateZ(-1px) scale(2);
     -webkit-transform: translateZ(-1px) scale(2);
@@ -1113,5 +1108,12 @@ p {
     right:1em;
     top:2.5em;
     width: 16em;
+}
+.logo {
+  width: 5em;
+  position: absolute;
+  z-index: 4;
+  top: 1.5em;
+  left: 3em;
 }
 }
