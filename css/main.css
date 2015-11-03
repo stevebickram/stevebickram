@@ -285,6 +285,7 @@ p {
     top: 10em;
     z-index: 20;
     display: block;
+  color: black;
 }
 .nav a { 
     color: black;
