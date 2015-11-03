@@ -282,25 +282,12 @@ p {
 .nav {
     list-style-type: none;
     position:relative;
-    left: 10em;
     top: 10em;
     z-index: 10;
 }
 .nav a { 
     color: black;
     text-decoration: none;
-}
-.nav li{
-    padding-bottom: 1em;
-}
-.nav li a:hover{ 
-    color:#6c2ece;
-}
-.nav li a:active{
-    color: white;
-}
-.nav: .nav-current:visited{
-    color:white;
 }
 .social {
     position: absolute;
