@@ -310,7 +310,7 @@ p {
     padding: 0 2em;
 }
 .logo {
-  width: 20em;
+  width: 8em;
   position: absolute;
   z-index: 4;
   top: 1.5em;
@@ -1117,7 +1117,7 @@ p {
     width: 16em;
 }
 .logo {
-  width: 5em;
+  width: 20em;
   position: absolute;
   z-index: 4;
   top: 1.5em;
