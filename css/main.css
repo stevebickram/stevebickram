@@ -42,6 +42,7 @@ p {
     font-family: 'Covered By Your Grace', cursive;
     color: rgba(148, 124, 181, 1);
     padding: 0 0 3em;
+    top: 3em;
 }
 .parallax-group {
     -webkit-transform-style: preserve-3d;
