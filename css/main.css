@@ -283,7 +283,7 @@ p {
     list-style-type: none;
     position: absolute;
     top: -10em;
-    z-index: 20;
+    z-index: 2;
     display: block;
     color: black;
 }
