@@ -282,18 +282,17 @@ p {
 .nav {
     list-style-type: none;
     position:absolute;
-    top: 12em;
     left: 0;
 }
 .nav a { 
-    color: white;
+    color: #947cb5;
     text-decoration: none;
 }
 .nav li{
     padding-bottom: 1em;
 }
 .nav li a:hover{ 
-    color:#43572E;
+    color:#6c2ece;
 }
 .nav li a:active{
     color: white;
