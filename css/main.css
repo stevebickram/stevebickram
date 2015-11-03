@@ -318,7 +318,7 @@ p {
   width: 20em;
   position: absolute;
   z-index: 4;
-  top: 2em;
+  top: 1.5em;
   left: 3em;
 }
 .gallery {
