@@ -283,7 +283,8 @@ p {
     list-style-type: none;
     position:relative;
     top: 10em;
-    z-index: 10;
+    z-index: 20;
+    display: block;
 }
 .nav a { 
     color: black;
