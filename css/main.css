@@ -46,7 +46,11 @@ p {
     transform-style: preserve-3d;
 }
 .video {
-    width:110%;
+    display: none;
+}
+.small-banner {
+    width: 100%;
+    display: block;
 }
 .nav {
     list-style-type: none;
@@ -192,6 +196,11 @@ p {
 @media only screen and (min-width: 38em) {  
 .video {
     width:100%;
+    display: block;
+}
+.small-banner {
+    width: 100%;
+    display: none;
 }
 .back {
     transform: translateZ(-1px) scale(2);
