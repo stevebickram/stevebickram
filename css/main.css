@@ -69,7 +69,7 @@ p {
     transform: translateZ(-1px) scale(2);
     -webkit-transform: translateZ(-1px) scale(2);
     position: relative;
-    top: -41em;
+    top: -40em;
    -webkit-animation: eyes1 7s ease-in-out infinite alternate;
     animation: eyes1 7s ease-in-out infinite alternate;
 }
@@ -106,7 +106,7 @@ p {
     transform: translateZ(-1px) scale(2);
     -webkit-transform: translateZ(-1px) scale(2);
     position: absolute;
-    top: -9.5em;
+    top: -8em;
     left: 0em;
    -webkit-animation: eyes 3s ease-in-out infinite alternate;
     animation: eyes 3s ease-in-out infinite alternate;
@@ -161,7 +161,7 @@ p {
     transform: translateZ(-1px) scale(2);
     -webkit-transform: translateZ(-1px) scale(2);
     position: absolute;
-    top:-9.5em;
+    top:-8em;
     left: .1em;
    -webkit-animation: eyes2 5s ease-in-out infinite alternate;
     animation: eyes2 5s ease-in-out infinite alternate;
@@ -199,7 +199,7 @@ p {
     transform: translateZ(-1px) scale(2);
     -webkit-transform: translateZ(-1px) scale(2);
     position: absolute;
-    top: -9.5em;
+    top: -8em;
     left: -.1em;
    -webkit-animation: eyes3 9s ease-in-out infinite alternate;
     animation: eyes3 9s ease-in-out infinite alternate;
@@ -288,7 +288,7 @@ p {
 }
 .social {
     position: absolute;
-    right:1em;
+    right:.1em;
     top: 2em;
     width: 5em;
 }
@@ -314,7 +314,7 @@ p {
   position: absolute;
   z-index: 4;
   top: 1.5em;
-  left: 3em;
+  left: 1em;
 }
 .gallery {
     height: 100%;
@@ -397,17 +397,8 @@ p {
     position: relative;
     color: #8e76af;
     text-align: center;
-    top: -25em;
+    top: -13em;
 }
-.contact3 {
-    overflow: hidden;
-    width:100%;
-    position: relative;
-    color: #8e76af;
-    text-align: center;
-    padding: 2em 5em;
-}
-
 .arrow2 {
     width: 3em;
     padding-bottom: 4em;
@@ -755,6 +746,14 @@ p {
   top: 1.5em;
   left: 3em;
 }
+.contact {
+    overflow: hidden;
+    width:100%;
+    position: relative;
+    color: #8e76af;
+    text-align: center;
+    top:10em;
+}
 }
 @media only screen and (min-width: 60em) {
 .back3 {
@@ -787,7 +786,7 @@ p {
     -webkit-transform: translateZ(-1px) scale(2);
     position: absolute;
     display: block;
-    top: .1em;
+    top: 2em;
    -webkit-animation: eyes1 7s ease-in-out infinite alternate;
     animation: eyes1 7s ease-in-out infinite alternate;
 }
@@ -824,7 +823,7 @@ p {
     transform: translateZ(-1px) scale(2);
     -webkit-transform: translateZ(-1px) scale(2);
     position: absolute;
-    top: .1em;
+    top: 2em;
     left: 0em;
     display: block;
    -webkit-animation: eyes 3s ease-in-out infinite alternate;
@@ -882,7 +881,7 @@ p {
     -webkit-transform: translateZ(-1px) scale(2);
     position: absolute;
     display: block;
-    top: .1em;
+    top: 2em;
     left: .1em;
    -webkit-animation: eyes2 5s ease-in-out infinite alternate;
     animation: eyes2 5s ease-in-out infinite alternate;
@@ -921,7 +920,7 @@ p {
     -webkit-transform: translateZ(-1px) scale(2);
     position: absolute;
     display: block;
-    top: .1em;
+    top: 2em;
     left: -.1em;
    -webkit-animation: eyes3 9s ease-in-out infinite alternate;
     animation: eyes3 9s ease-in-out infinite alternate;
@@ -1108,5 +1107,13 @@ p {
   z-index: 4;
   top: 1.5em;
   left: 3em;
+}
+.contact {
+    overflow: hidden;
+    width:100%;
+    position: relative;
+    color: #8e76af;
+    text-align: center;
+    top:10em;
 }
 }
