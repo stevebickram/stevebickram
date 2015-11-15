@@ -200,7 +200,7 @@ p {
 }
 .small-banner {
     width: 100%;
-    display: block;
+    display: none;
 }
 .back {
     transform: translateZ(-1px) scale(2);
