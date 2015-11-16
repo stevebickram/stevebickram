@@ -38,8 +38,8 @@ p {
 .title {
     text-align: center;
     font-family: 'Covered By Your Grace', cursive;
-    color: rgba(148, 124, 181, 1);
     padding: 0 0 3em;
+    width: 15em;
 }
 .parallax-group {
     -webkit-transform-style: preserve-3d;
@@ -249,7 +249,7 @@ p {
     display: block;
 }
 .title {
-    width: 80%;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -371,7 +371,7 @@ p {
     display: none;
 }
 .title {
-    width: 60%;
+    width: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
