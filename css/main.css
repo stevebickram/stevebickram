@@ -392,6 +392,7 @@ p {
     position: relative;
     display: block;
     background-color: white;
+  height: 100%;
 }
 .nav {
     list-style-type: none;
