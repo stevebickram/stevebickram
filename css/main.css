@@ -337,8 +337,8 @@ p {
   width: 13em;
   position: absolute;
   z-index: 4;
-  top: 0.5em;
-  left: 0.5em;
+  top: 1em;
+  left: 1em;
 }
 .contact {
     overflow: hidden;
