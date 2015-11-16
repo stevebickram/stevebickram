@@ -142,6 +142,24 @@ p {
 .background-5:hover {
     background-image: url(../images/background-4-B.png);
 }
+.background-6 {
+    background-image: url(../images/background-5b.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.background-6:hover {
+    background-image: url(../images/background-5.png);
+}
+.background-7 {
+    background-image: url(../images/background-6.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.background-7:hover {
+    background-image: url(../images/background-6-B.png);
+}
 .button1 {
     display: block;
     height:15em;
