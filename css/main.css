@@ -123,7 +123,7 @@ p {
     background-repeat: no-repeat;
 }
 .background-3:hover {
-    background-image: url(../images/background-2b-B.png);
+    background-image: url(../images/background-2-B.png);
 }
 .background-4 {
     background-image: url(../images/background-3b.png);
@@ -132,7 +132,7 @@ p {
     position: relative;
 }
 .background-4:hover {
-    background-image: url(../images/background-3-B.png);
+    background-image: url(../images/background-3.png);
 }
 .background-5 {
     background-image: url(../images/background-4.png);
