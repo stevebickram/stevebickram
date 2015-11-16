@@ -48,6 +48,9 @@ p {
 .video {
     display: none;
 }
+.image {
+    padding: 1em 0;
+}
 .small-banner {
     width: 100%;
     display: block;
