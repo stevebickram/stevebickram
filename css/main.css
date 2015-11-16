@@ -361,13 +361,13 @@ p {
     background-image: url(../images/background-1-B.png);
 }
 .background-3 {
-    background-image: url(../images/background-2b.png);
+    background-image: url(../images/background-2.png);
     height: 30em;
     position: relative;
     top: -8em;
 }
 .background-3:hover {
-    background-image: url(../images/background-2b-B.png);
+    background-image: url(../images/background-2-B.png);
 }
 .background-4 {
     background-image: url(../images/background-3b.png);
@@ -377,7 +377,7 @@ p {
     top:0;
 }
 .background-4:hover {
-    background-image: url(../images/background-3b-B.png);
+    background-image: url(../images/background-3.png);
 }
 .background-5 {
     background-image: url(../images/background-4.png);
