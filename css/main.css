@@ -383,7 +383,7 @@ p {
     overflow:hidden;
     position: relative;
     background-size: 100%;
-    height: 33em;
+    height: 23em;
 }
 .background-2:hover {
     background-image: url(../images/background-1-B.png);
@@ -392,7 +392,7 @@ p {
     background-image: url(../images/background-2.png);
     position: relative;
     background-size: 100%;
-    height: 28em;
+    height: 23em;
 }
 .background-3:hover {
     background-image: url(../images/background-2-B.png);
@@ -402,7 +402,7 @@ p {
     background-repeat: no-repeat;
     position: relative;
     background-size: 100%;
-    height: 28em;
+    height: 23em;
 }
 .background-4:hover {
     background-image: url(../images/background-3.png);
@@ -412,7 +412,7 @@ p {
     position: relative;
     overflow: hidden;
     background-size: 100%;
-    height: 28em;
+    height: 23em;
 }
 .background-5:hover {
     background-image: url(../images/background-4-B.png);
@@ -422,7 +422,7 @@ p {
     position: relative;
     overflow: hidden;
     background-size: 100%;
-    height: 28em;
+    height: 23em;
     background-image: no-repeat;
 }
 .background-6:hover {
@@ -433,7 +433,7 @@ p {
     position: relative;
     overflow: hidden;
     background-size: 100%;
-    height: 28em;
+    height: 23em;
     background-image: no-repeat;
 }
 .background-7:hover {
