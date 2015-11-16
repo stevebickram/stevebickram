@@ -94,7 +94,6 @@ p {
   left: 1em;
 }
 .gallery {
-    height: 100%;
     position: relative;
     top:-25em;
     background-color: white;
@@ -295,7 +294,6 @@ p {
     position: relative;
     top: 5em;
     overflow: hidden; 
-    height: 75em;
 }
 .logo {
   width: 13em;
@@ -371,7 +369,6 @@ p {
 .background-5:hover {
     background-image: url(../images/background-4-B.png);
 }
-
 .front {
     padding: 1em 3em 3em;
     position: relative;
@@ -384,7 +381,6 @@ p {
 .gallery {
     position: relative;
     display: block;
-    height: 100%;
     background-color: white;
 }
 .nav {
