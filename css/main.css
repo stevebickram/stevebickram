@@ -36,12 +36,11 @@ p {
     text-align: center;   
 }
 .title {
-    text-align: center;
-    font-family: 'Covered By Your Grace', cursive;
-    padding: 0 0 3em;
-    width: 15em;
+    width: 25em;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    margin: 0 auto 3em;
 }
 .parallax-group {
     -webkit-transform-style: preserve-3d;
