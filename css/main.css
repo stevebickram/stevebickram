@@ -334,11 +334,11 @@ p {
     overflow: hidden; 
 }
 .logo {
-  width: 13em;
+  width: 9em;
   position: absolute;
   z-index: 4;
-  top: 1em;
-  left: 1em;
+  top: .5em;
+  left: .5em;
 }
 .contact {
     overflow: hidden;
@@ -445,7 +445,7 @@ p {
     top:1em;    
 }
 .intro-p {
-    padding: 0 12em;    
+    padding: none;    
 }
 .gallery {
     position: relative;
