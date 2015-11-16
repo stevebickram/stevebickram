@@ -124,10 +124,10 @@ p {
     background-repeat: no-repeat;
 }
 .background-3:hover {
-    background-image: url(../images/background-2-B.png);
+    background-image: url(../images/background-2b-B.png);
 }
 .background-4 {
-    background-image: url(../images/background-3.png);
+    background-image: url(../images/background-3b.png);
     background-size: 100%;
     height: 40em;
     background-repeat: no-repeat;
@@ -277,7 +277,7 @@ p {
     background-image: url(../images/background-2-B.png);
 }
 .background-4 {
-    background-image: url(../images/background-3.png);
+    background-image: url(../images/background-3b.png);
     background-size: 100%;
     height: 45em;
     background-repeat: no-repeat;
