@@ -180,6 +180,16 @@ p {
     height:15em;
     text-align: right;
 }
+.button5 {
+    display: block;
+    height:15em;
+    text-align: right;
+}
+.button6 {
+    display: block;
+    height:15em;
+    text-align: right;
+}
 .contact {
     overflow: hidden;
     width:100%;
