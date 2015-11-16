@@ -351,6 +351,7 @@ p {
     background-image: url(../images/background-1.png);
     overflow:hidden;
     position: relative;
+    height: 100%;
 }
 .background-2:hover {
     background-image: url(../images/background-1-B.png);
@@ -358,6 +359,7 @@ p {
 .background-3 {
     background-image: url(../images/background-2.png);
     position: relative;
+    height: 100%;
 }
 .background-3:hover {
     background-image: url(../images/background-2-B.png);
@@ -366,6 +368,7 @@ p {
     background-image: url(../images/background-3b.png);
     background-repeat: no-repeat;
     position: relative;
+    height: 100%;
 }
 .background-4:hover {
     background-image: url(../images/background-3.png);
@@ -374,6 +377,7 @@ p {
     background-image: url(../images/background-4.png);
     position: relative;
     overflow: hidden;
+    height: 100%;
 }
 .background-5:hover {
     background-image: url(../images/background-4-B.png);
