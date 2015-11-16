@@ -391,7 +391,7 @@ p {
     position: relative;
     display: block;
     background-color: white;
-    overflow: hidden;
+    height: 100%;
 }
 .nav {
     list-style-type: none;
