@@ -538,4 +538,12 @@ p {
     text-decoration: none;
     margin: 50% 45%;
 }
+.contact3 {
+    overflow: hidden;
+    width:100%;
+    position: relative;
+    top: 15%;
+    color: #8e76af;
+    text-align: center;
+}
 }
