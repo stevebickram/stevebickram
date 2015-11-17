@@ -52,6 +52,9 @@ p {
 .image {
     padding: 2em 0;
 }
+.email-link {
+    text-decoration: none;
+}
 .small-banner {
     width: 100%;
     display: block;
