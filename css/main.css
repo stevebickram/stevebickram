@@ -542,7 +542,7 @@ p {
     overflow: hidden;
     width:100%;
     position: relative;
-    top: 15%;
+    top: 15em;
     color: #8e76af;
     text-align: center;
 }
