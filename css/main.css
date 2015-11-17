@@ -360,6 +360,12 @@ p {
     text-align: center;
     top:10em;
 }
+.home {
+    text-align: center;
+    color: rgba(148, 124, 181, 1);
+    text-decoration: none;
+    margin: 50% 45%;
+}
 }
 @media only screen and (min-width: 60em) {
 
