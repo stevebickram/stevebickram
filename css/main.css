@@ -206,6 +206,7 @@ p {
     position: relative;
     color: #8e76af;
     text-align: center;
+    padding: 0 0 3em;
 }
 .contact3 {
     overflow: hidden;
@@ -531,6 +532,7 @@ p {
     color: #8e76af;
     text-align: center;
     top:5em;
+    padding: 0 0 3em;
 }
 .home {
     text-align: center;
