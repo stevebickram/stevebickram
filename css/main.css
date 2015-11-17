@@ -109,7 +109,7 @@ p {
     text-align: center;
     color: rgba(148, 124, 181, 1);
     text-decoration: none;
-    margin: 50% 45%;
+    margin: 30% 45%;
 }
 .background-2 {
     background-image: url(../images/background-1.png);
@@ -201,6 +201,13 @@ p {
     text-align: right;
 }
 .contact {
+    overflow: hidden;
+    width:100%;
+    position: relative;
+    color: #8e76af;
+    text-align: center;
+}
+.contact3 {
     overflow: hidden;
     width:100%;
     position: relative;
