@@ -471,7 +471,7 @@ p {
     background-image: no-repeat;
 }
 .background-7:hover {
-    background-image: url(../images/background-6-B.png);
+    color: #8e76af;
 }
 .front {
     padding: 1em 3em 3em;
