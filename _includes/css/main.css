@@ -114,6 +114,7 @@ p {
 .intro-p {
     padding: 0 2em;
     font-size: 1em;
+    text-align: left;
 }
 .logo {
   width: 10em;
