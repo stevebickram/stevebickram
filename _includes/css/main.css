@@ -138,9 +138,7 @@ p {
     position: relative;
     margin: 0;
 }
-.background-2:hover {
-    background-image: url(../images/background-1-B.jpg);
-}
+
 .background-3 {
     background-image: url(../images/background-2.png);
     background-size: contain;
@@ -200,6 +198,10 @@ p {
     height:15em;
     text-align: right;
 }
+.button1:hover {
+    background-color: rgba(148, 124, 181, .5);
+}
+
 .button2 {
     display: block;
     height:15em;
