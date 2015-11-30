@@ -69,9 +69,6 @@ p {
 .video {
     display: none;
 }
-.image {
-    padding: 2em 0;
-}
 .email-link {
     text-decoration: none;
     color: #8e76af;
@@ -138,7 +135,7 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
-    margin: 0 0 2em;
+    margin: 0;
 }
 .background-2:hover {
     background-image: url(../images/background-1-B.jpg);
@@ -148,7 +145,7 @@ p {
     background-size: 100%;
     position: relative;
     background-repeat: no-repeat;
-    margin: 0 0 2em;
+    margin: 0;
 }
 .background-3:hover {
     background-image: url(../images/background-2-B.png);
@@ -158,7 +155,7 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
-    margin: 0 0 2em;
+    margin: 0;
 }
 .background-4:hover {
     background-image: url(../images/background-3.png);
@@ -168,7 +165,7 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
-    margin: 0 0 2em;
+    margin: 0;
 }
 .background-5:hover {
     background-image: url(../images/background-4-B.png);
@@ -178,7 +175,7 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
-    margin: 0 0 2em;
+    margin: 0;
 }
 .background-6:hover {
     background-image: url(../images/background-5-B.png);
@@ -259,9 +256,7 @@ p {
     width:100%;
     display: block;
 }
-.image {
-    padding: 2em 0;
-}
+
 .small-banner {
     width: 100%;
     display: none;
