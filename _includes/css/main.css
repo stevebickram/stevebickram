@@ -132,7 +132,8 @@ p {
 }
 .background-2 {
     background-image: url(../images/background-1.jpg);
-    background-size: 100%;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     position: relative;
     margin: 0;
@@ -142,7 +143,8 @@ p {
 }
 .background-3 {
     background-image: url(../images/background-2.png);
-    background-size: 100%;
+    background-size: contain;
+    background-position: center;
     position: relative;
     background-repeat: no-repeat;
     margin: 0;
@@ -152,7 +154,8 @@ p {
 }
 .background-4 {
     background-image: url(../images/background-3b.png);
-    background-size: 100%;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     position: relative;
     margin: 0;
@@ -162,7 +165,8 @@ p {
 }
 .background-5 {
     background-image: url(../images/background-4.png);
-    background-size: 100%;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     position: relative;
     margin: 0;
@@ -319,7 +323,8 @@ p {
 }
 .background-2 {
     background-image: url(../images/background-1.jpg);
-    background-size: 100%;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     overflow:hidden; 
 }
@@ -328,7 +333,8 @@ p {
 }
 .background-3 {
     background-image: url(../images/background-2.png);
-    background-size: 100%;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     overflow:hidden; 
 }
@@ -337,7 +343,8 @@ p {
 }
 .background-4 {
     background-image: url(../images/background-3b.png);
-    background-size: 100%;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     overflow:hidden; 
 }
@@ -346,7 +353,8 @@ p {
 }
 .background-5 {
     background-image: url(../images/background-4.png);
-    background-size: 100%;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     overflow:hidden; 
 }
@@ -413,7 +421,8 @@ p {
     background-image: url(../images/background-1.jpg);
     overflow:hidden;
     position: relative;
-    background-size: 100%;
+    background-size: contain;
+    background-position: center;
     height: 23em;
 }
 .background-2:hover {
@@ -422,7 +431,8 @@ p {
 .background-3 {
     background-image: url(../images/background-2.png);
     position: relative;
-    background-size: 100%;
+    background-size: contain;
+    background-position: center;
     height: 23em;
 }
 .background-3:hover {
@@ -432,7 +442,8 @@ p {
     background-image: url(../images/background-3b.png);
     background-repeat: no-repeat;
     position: relative;
-    background-size: 100%;
+    background-size: contain;
+    background-position: center;
     height: 23em;
 }
 .background-4:hover {
@@ -442,7 +453,8 @@ p {
     background-image: url(../images/background-4.png);
     position: relative;
     overflow: hidden;
-    background-size: 100%;
+    background-size: contain;
+    background-position: center;
     height: 23em;
 }
 .background-5:hover {
