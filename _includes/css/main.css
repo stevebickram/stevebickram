@@ -558,6 +558,8 @@ p {
     width: 4em;
 }
 .nav-btn {
+    position: absolute;
+    
     z-index: 4;
     background-image: url(../images/hamburger.svg);
     cursor:pointer ; 
@@ -578,6 +580,7 @@ p {
     z-index: 0;
     margin: 0;
     padding: 5em 0 0;
+    display: none;
 }
 
 .nav a { 
