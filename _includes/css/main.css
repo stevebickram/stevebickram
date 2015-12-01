@@ -593,7 +593,7 @@ p {
 }
 .nav-check {
     position: absolute;
-    top: -5em;
+    top: -35em;
 }
 .nav-check:checked ~ .nav {
     display: block;
