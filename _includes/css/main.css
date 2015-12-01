@@ -561,7 +561,6 @@ p {
     position: absolute;
     
     z-index: 4;
-    background-image: url(../images/hamburger.svg);
     cursor:pointer ; 
 }
 
