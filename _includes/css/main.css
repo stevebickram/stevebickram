@@ -558,15 +558,7 @@ p {
     width: 4em;
 }
 .nav-btn {
-    position: absolute;
-    top:1em;
-    right: .5em;
-    width:5em;
-    border: 0;
-    line-height: 0;
-    display: inline-block;
-    transition: all .25s linear;
-    margin: 1em;
+
     z-index: 4;
     background-image: url(../images/hamburger.svg);
     cursor:pointer ; 
