@@ -117,7 +117,7 @@ p {
 }
 .nav-check:checked ~ .nav {
     right: -10.1em;
-    transition: all .25s ease-in-out;
+    transition: all .25s linear;
 }
 .front {
     padding: 1em 1em 3em;
@@ -617,7 +617,7 @@ p {
 }
 .nav-check:checked ~ .nav {
     right: -10.7em;
-    transition: all .25s ease-in-out;
+    transition: all .25s linear;
 }
 .nav-button {
     display: none;
