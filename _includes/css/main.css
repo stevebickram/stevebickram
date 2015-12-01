@@ -558,7 +558,6 @@ p {
     width: 4em;
 }
 .nav-btn {
-
     z-index: 4;
     background-image: url(../images/hamburger.svg);
     cursor:pointer ; 
