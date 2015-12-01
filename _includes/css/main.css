@@ -589,7 +589,7 @@ p {
 }
 .is-open {
     position: absolute;
-    right: -10em;
+    right: 10em;
 }
 .nav a { 
     text-decoration: none;
