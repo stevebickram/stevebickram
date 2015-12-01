@@ -95,7 +95,7 @@ p {
     width: 15em;
     height:100%;
     top: 0;
-    right: -14.7em;
+    right: -15em;
     z-index: 0;
     margin: 0;
     padding: 5em 0 0;
@@ -115,7 +115,7 @@ p {
     top: -35em;
 }
 .nav-check:checked ~ .nav {
-    right: 1em;
+    right: -10.1em;
     transition: all .25s linear;
 }
 .front {
