@@ -544,7 +544,7 @@ p {
     width: 30em;
 }
 .media-icon {
-    width: 4em;
+    width: 3em;
     margin: 0 .3em;
 }
 .social {
@@ -555,13 +555,15 @@ p {
     text-align: center;
     overflow: hidden;
     right: 3em;
-    width: 4em;
+    width: 3em;
 }
 .nav-btn {
     position: absolute;
-    
     z-index: 4;
     cursor:pointer ; 
+    top: 1em;
+    right: 1em;
+    width: 3em;
 }
 
 .burger {
