@@ -77,14 +77,8 @@ p {
     width: 100%;
     display: block;
 }
-.social {
-    position: absolute;
-    right:.1em;
-    top: 2em;
-    width: 5em;
-}
 .media-icon {
-    width: 4em;
+    width: 3em;
     margin: .4em .3em;
 }
 .nav-btn {
@@ -94,11 +88,6 @@ p {
     top: 1em;
     right: 1em;
     width: 3em;
-}
-.burger {
-    width: 3em;
-    margin: 0;
-    background: none;
 }
 .nav {
     list-style-type: none;
@@ -116,7 +105,7 @@ p {
     text-decoration: none;
 }
 .nav li{
-    padding-bottom: 1em;
+    padding-bottom: .5em;
 }
 .nav: .nav-current:visited{
     color:white;
