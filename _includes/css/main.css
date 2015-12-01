@@ -597,7 +597,7 @@ p {
     top: -35em;
 }
 .nav-check:checked ~ .nav {
-    display: block;
+    display: inline-block;
 }
 .logo {
   width: 14.5em;
