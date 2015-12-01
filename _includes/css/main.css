@@ -112,14 +112,12 @@ p {
     padding: 5em 0 0;
     display: none;
 }
-
 .nav a { 
     text-decoration: none;
 }
 .nav li{
     padding-bottom: 1em;
 }
-  
 .nav: .nav-current:visited{
     color:white;
 }
@@ -128,9 +126,8 @@ p {
     top: -35em;
 }
 .nav-check:checked ~ .nav {
-    right: -10.7em;
+    right: 1em;
     transition: all .25s linear;
-
 }
 .front {
     padding: 1em 1em 3em;
@@ -602,12 +599,6 @@ p {
     right: 2em;
     width: 3.5em;
 }
-
-.burger {
-    width: 3em;
-    margin: 0;
-    background: none;
-}
 .nav {
     list-style-type: none;
     position:absolute;
@@ -620,14 +611,12 @@ p {
     padding: 5em 0 0;
     display: inline-block;
 }
-
 .nav a { 
     text-decoration: none;
 }
 .nav li{
     padding-bottom: 1em;
-}
-  
+}  
 .nav: .nav-current:visited{
     color:white;
 }
@@ -639,7 +628,6 @@ p {
 .nav-check:checked ~ .nav {
     right: -10.7em;
     transition: all .25s linear;
-
 }
 .logo {
   width: 14.5em;
