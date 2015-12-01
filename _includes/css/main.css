@@ -77,18 +77,6 @@ p {
     width: 100%;
     display: block;
 }
-.nav {
-    list-style-type: none;
-    position: absolute;
-    top: -10em;
-    z-index: 2;
-    display: block;
-    color: black;
-}
-.nav a { 
-    color: black;
-    text-decoration: none;
-}
 .social {
     position: absolute;
     right:.1em;
@@ -138,7 +126,6 @@ p {
     position: relative;
     margin: 0;
 }
-
 .background-3 {
     background-image: url(../images/background-2.png);
     background-size: contain;
@@ -146,9 +133,6 @@ p {
     position: relative;
     background-repeat: no-repeat;
     margin: 0;
-}
-.background-3:hover {
-    background-image: url(../images/background-2-B.png);
 }
 .background-4 {
     background-image: url(../images/background-3b.png);
@@ -158,9 +142,6 @@ p {
     position: relative;
     margin: 0;
 }
-.background-4:hover {
-    background-image: url(../images/background-3.png);
-}
 .background-5 {
     background-image: url(../images/background-4.png);
     background-size: contain;
@@ -168,9 +149,6 @@ p {
     background-repeat: no-repeat;
     position: relative;
     margin: 0;
-}
-.background-5:hover {
-    background-image: url(../images/background-4-B.png);
 }
 .background-6 {
     background-image: url(../images/background-5.png);
@@ -180,9 +158,6 @@ p {
     position: relative;
     margin: 0;
 }
-.background-6:hover {
-    background-image: url(../images/background-5-B.png);
-}
 .background-7 {
     background-image: url(../images/background-6.png);
     background-size: contain;
@@ -190,42 +165,71 @@ p {
     background-repeat: no-repeat;
     position: relative;
 }
-.background-7:hover {
-    background-image: url(../images/background-6-B.png);
-}
 .button1 {
     display: block;
     height:15em;
     text-align: right;
 }
 .button1:hover {
-    background-color: rgba(148, 124, 181, .5);
+    background-color: rgba(148, 124, 181, .6);
+    width:19em;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 .button2 {
     display: block;
     height:15em;
     text-align: right;
+}
+.button2:hover {
+    background-color: rgba(148, 124, 181, .6);
+    width:19em;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button3 {
     display: block;
     height:15em;
     text-align: right;
 }
+.button3:hover {
+    background-color: rgba(148, 124, 181, .6);
+    width:19em;
+    margin-left: auto;
+    margin-right: auto;
+}
 .button4 {
     display: block;
     height:15em;
     text-align: right;
+}
+.button4:hover {
+    background-color: rgba(148, 124, 181, .6);
+    width:19em;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button5 {
     display: block;
     height:15em;
     text-align: right;
 }
+.button5:hover {
+    background-color: rgba(148, 124, 181, .6);
+    width:19em;
+    margin-left: auto;
+    margin-right: auto;
+}
 .button6 {
     display: block;
     height:15em;
     text-align: right;
+}
+.button6:hover {
+    background-color: rgba(148, 124, 181, .6);
+    width:19em;
+    margin-left: auto;
+    margin-right: auto;
 }
 .contact {
     overflow: hidden;
@@ -291,28 +295,6 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
-.nav {
-    list-style-type: none;
-    position:absolute;
-    top: 18%;
-    left: 3%;
-}
-.nav a { 
-    color: white;
-    text-decoration: none;
-}
-.nav li{
-    padding-bottom: 1em;
-}
-.nav li a:hover{ 
-    color:#43572E;
-}
-.nav li a:active{
-    color: white;
-}
-.nav: .nav-current:visited{
-    color:white;
-}
 .social {
     position: absolute;
     right:1em;
@@ -330,18 +312,12 @@ p {
     background-repeat: no-repeat;
     overflow:hidden; 
 }
-.background-2:hover {
-    background-image: url(../images/background-1-B.jpg);
-}
 .background-3 {
     background-image: url(../images/background-2.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     overflow:hidden; 
-}
-.background-3:hover {
-    background-image: url(../images/background-2-B.png);
 }
 .background-4 {
     background-image: url(../images/background-3b.png);
@@ -350,18 +326,12 @@ p {
     background-repeat: no-repeat;
     overflow:hidden; 
 }
-.background-4:hover {
-    background-image: url(../images/background-3-B.png);
-}
 .background-5 {
     background-image: url(../images/background-4.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     overflow:hidden; 
-}
-.background-5:hover {
-    background-image: url(../images/background-4-B.png);
 }
 .front {
     padding: 3em 1em 3em;
@@ -427,18 +397,12 @@ p {
     background-position: center;
     height: 23em;
 }
-.background-2:hover {
-    background-image: url(../images/background-1-B.jpg);
-}
 .background-3 {
     background-image: url(../images/background-2.png);
     position: relative;
     background-size: contain;
     background-position: center;
     height: 23em;
-}
-.background-3:hover {
-    background-image: url(../images/background-2-B.png);
 }
 .background-4 {
     background-image: url(../images/background-3b.png);
@@ -448,9 +412,6 @@ p {
     background-position: center;
     height: 23em;
 }
-.background-4:hover {
-    background-image: url(../images/background-3.png);
-}
 .background-5 {
     background-image: url(../images/background-4.png);
     position: relative;
@@ -458,9 +419,6 @@ p {
     background-size: contain;
     background-position: center;
     height: 23em;
-}
-.background-5:hover {
-    background-image: url(../images/background-4-B.png);
 }
 .background-6 {
     background-image: url(../images/background-5.png);
@@ -471,9 +429,6 @@ p {
     height: 23em;
     background-image: no-repeat;
 }
-.background-6:hover {
-    background-image: url(../images/background-5-B.png);
-}
 .background-7 {
     background-image: url(../images/background-6.png);
     position: relative;
@@ -482,9 +437,6 @@ p {
     background-position: center;
     height: 23em;
     background-image: no-repeat;
-}
-.background-7:hover {
-    background-image: url(../images/background-6-B.png);
 }
 .front {
     padding: 1em 3em 3em;
@@ -501,14 +453,145 @@ p {
     background-color: white;
     height: 50em;
 }
+.button1 {
+    display: block;
+    text-align: right;
+    height: 22em;
+    position: relative;
+    top: .5em;
+}
+.button1:hover {
+    background-color: rgba(148, 124, 181, .6);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: auto;
+    width: 30em;
+}
+.button2 {
+    display: block;
+    text-align: right;
+    height: 22em;
+    position: relative;
+    top: .5em;
+}
+.button2:hover {
+    background-color: rgba(148, 124, 181, .6);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: auto;
+    width: 30em;
+}
+.button3 {
+    display: block;
+    text-align: right;
+    height: 22em;
+    position: relative;
+    top: .5em;
+}
+.button3:hover {
+    background-color: rgba(148, 124, 181, .6);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: auto;
+    width: 30em;
+}
+.button4 {
+    display: block;
+    text-align: right;
+    height: 22em;
+    position: relative;
+    top: .5em;
+}
+.button4:hover {
+    background-color: rgba(148, 124, 181, .6);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: auto;
+    width: 30em;
+}
+.button5 {
+    display: block;
+    text-align: right;
+    height: 22em;
+    position: relative;
+    top: .5em;
+}
+.button5:hover {
+    background-color: rgba(148, 124, 181, .6);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: auto;
+    width: 30em;
+}
+.button6 {
+    display: block;
+    text-align: right;
+    height: 22em;
+    position: relative;
+    top: .5em;
+}
+.button6:hover {
+    background-color: rgba(148, 124, 181, .6);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: auto;
+    width: 30em;
+}
+.media-icon {
+    width: 4em;
+    margin: 0 .3em;
+}
+.social {
+    transform: translateY(-10%);
+    position: absolute;
+    z-index: 3;
+    transition: all 1s linear;
+    text-align: center;
+    overflow: hidden;
+    right: 3em;
+    width: 4em;
+}
+.nav-btn {
+    position: absolute;
+    top:1em;
+    right: .5em;
+    width:5em;
+    border: 0;
+    line-height: 0;
+    display: inline-block;
+    transition: all .25s linear;
+    margin: 1em;
+    z-index: 4;
+    background: none;
+}
+
+.burger {
+    width: 3em;
+    margin: 0;
+    background: none;
+}
 .nav {
     list-style-type: none;
     position:absolute;
-    top: 35%;
-    left: 3%;
+    width: 15em;
+    height:100%;
+    top: 0;
+    right: -15em;
+    z-index: 0;
+    margin: 0;
+    padding: 5em 0 0;
+}
+.is-open {
+    position: absolute;
+    right: -10em;
 }
 .nav a { 
-    color: white;
     text-decoration: none;
 }
 .nav li{
@@ -523,36 +606,7 @@ p {
 .nav: .nav-current:visited{
     color:white;
 }
-.button1 {
-    display: block;
-    height:100%;
-    text-align: right;
-}
-.button2 {
-    display: block;
-    height:100%;
-    text-align: right;
-}
-.button3 {
-    display: block;
-    height:60%;
-    text-align: right;
-}
-.button4 {
-    display: block;
-    height:100%;
-    text-align: right;
-}
-.media-icon {
-    width: 4em;
-    margin: 0 .3em;
-}
-.social {
-    position: absolute;
-    right:1em;
-    top:2.5em;
-    width: 16em;
-}
+
 .logo {
   width: 14.5em;
   position: absolute;
