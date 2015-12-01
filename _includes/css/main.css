@@ -568,7 +568,8 @@ p {
     transition: all .25s linear;
     margin: 1em;
     z-index: 4;
-    background: none;
+    background-image: url(../images/hamburger.svg);
+    cursor:pointer ; 
 }
 
 .burger {
@@ -582,15 +583,13 @@ p {
     width: 15em;
     height:100%;
     top: 0;
-    right: -15em;
+    right: -10em;
     z-index: 0;
     margin: 0;
     padding: 5em 0 0;
+    display:none;
 }
-.is-open {
-    position: absolute;
-    right: 10em;
-}
+
 .nav a { 
     text-decoration: none;
 }
@@ -606,7 +605,13 @@ p {
 .nav: .nav-current:visited{
     color:white;
 }
-
+.nav-check {
+    position: absolute;
+    top: -5em;
+}
+.nav-check:checked ~ .nav {
+    display: block;
+}
 .logo {
   width: 14.5em;
   position: absolute;
