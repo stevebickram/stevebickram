@@ -118,10 +118,7 @@ p {
 .nav-check:checked ~ .nav {
     right: -10.7em;
 }
-.nav-check:not:checked ~ .nav {
-    right: -18em;
-    transition: all .25s linear;
-}
+
 .front {
     padding: 1em 1em 3em;
     position: relative;
