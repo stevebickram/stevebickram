@@ -415,7 +415,7 @@ p {
     top: -35em;   
 }
 .nav-check:checked ~ .nav {
-    right: -10.2em;
+    right: -10.7em;
     transition: all .25s linear;
 }
 }
