@@ -644,7 +644,6 @@ p {
 .nav-check:checked ~ .nav {
     right: -10.7em;
     transition: all .25s linear;
-    display: none;
 }
 .nav-btn {
     display: none;
