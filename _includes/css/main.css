@@ -99,7 +99,6 @@ p {
     z-index: 0;
     margin: 0;
     padding: 5em 0 0;
-    display: none;
 }
 .nav a { 
     text-decoration: none;
@@ -116,7 +115,7 @@ p {
     
 }
 .nav-check:checked ~ .nav {
-    right: -10.1em;
+    right: -10.7em;
     transition: all .25s linear;
 }
 .front {
