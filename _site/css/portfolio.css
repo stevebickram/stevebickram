@@ -416,6 +416,9 @@ img {
 p {
     text-align: center;   
 }
+footer {
+    background-color: #9f5afa;
+}
 .title {
     width: 15em;
     display: block;
@@ -428,7 +431,6 @@ p {
     padding: 0;
     list-style-type: none;
 }
-
 .skip-links a {
     position:absolute;
     top: -3em;
@@ -439,7 +441,6 @@ p {
     font-size: 1.25em;
     text-decoration: none;
 }
-
 .skip-links a:focus {
     top:0;
 }
@@ -458,15 +459,46 @@ p {
     width: 100%;
     display: block;
 }
-.social {
-    position: absolute;
-    right:.1em;
-    top: 2em;
-    width: 5em;
-}
 .media-icon {
-    width: 4em;
+    width: 3em;
     margin: .4em .3em;
+}
+.nav-btn {
+    position: absolute;
+    z-index: 4;
+    cursor:pointer ; 
+    top: 1em;
+    right: 1em;
+    width: 3em;
+}
+.nav {
+    list-style-type: none;
+    position:absolute;
+    width: 15em;
+    height:100%;
+    top: 0;
+    right: -18em;
+    z-index: 2;
+    margin: 0;
+    padding: 5em 0 0;
+    transition: all .25s linear;
+
+}
+.nav a { 
+    text-decoration: none;
+}
+.nav li{
+    padding-bottom: .5em;
+}
+.nav: .nav-current:visited{
+    color:white;
+}
+.nav-check {
+    position: absolute;
+    top: -35em;  
+}
+.nav-check:checked ~ .nav {
+    right: -10.7em;
 }
 .front {
     padding: 1em 1em 3em;
@@ -492,6 +524,9 @@ p {
 .gallery {
     position: relative;
     background-color: white;
+    width: 100%;
+}
+.gallery-image {
 }
 .home {
     text-align: center;
@@ -500,124 +535,92 @@ p {
     margin: 30% 45%;
 }
 .background-2 {
-    background-image: url(../images/background-1.jpg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    overflow: hidden;
     position: relative;
     margin: 0;
 }
 .background-3 {
-    background-image: url(../images/background-2.png);
-    background-size: contain;
-    background-position: center;
+    overflow: hidden;
     position: relative;
-    background-repeat: no-repeat;
     margin: 0;
 }
 .background-4 {
-    background-image: url(../images/background-3b.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    overflow: hidden;
     position: relative;
     margin: 0;
 }
 .background-5 {
-    background-image: url(../images/background-4.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+
     position: relative;
     margin: 0;
 }
 .background-6 {
-    background-image: url(../images/background-5.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+
     position: relative;
     margin: 0;
 }
 .background-7 {
-    background-image: url(../images/background-6.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+
     position: relative;
 }
 .button1 {
     display: block;
-    height:15em;
     text-align: right;
 }
 .button1:hover {
-    background-color: rgba(148, 124, 181, .6);
-    width:19em;
+    transform: scale(.8);
     margin-left: auto;
     margin-right: auto;
 }
 .button2 {
     display: block;
-    height:15em;
     text-align: right;
 }
 .button2:hover {
-    background-color: rgba(148, 124, 181, .6);
-    width:19em;
+    transform: scale(.8);
     margin-left: auto;
     margin-right: auto;
 }
 .button3 {
     display: block;
-    height:15em;
     text-align: right;
 }
 .button3:hover {
-    background-color: rgba(148, 124, 181, .6);
-    width:19em;
+    transform: scale(.8);
     margin-left: auto;
     margin-right: auto;
 }
 .button4 {
     display: block;
-    height:15em;
     text-align: right;
 }
 .button4:hover {
-    background-color: rgba(148, 124, 181, .6);
-    width:19em;
+    transform: scale(.8);
     margin-left: auto;
     margin-right: auto;
 }
 .button5 {
     display: block;
-    height:15em;
     text-align: right;
 }
 .button5:hover {
-    background-color: rgba(148, 124, 181, .6);
-    width:19em;
+    transform: scale(.8);
     margin-left: auto;
     margin-right: auto;
 }
 .button6 {
     display: block;
-    height:15em;
     text-align: right;
 }
 .button6:hover {
-    background-color: rgba(148, 124, 181, .6);
-    width:19em;
+    transform: scale(.8);
     margin-left: auto;
     margin-right: auto;
 }
 .contact {
     overflow: hidden;
-    width:100%;
     position: relative;
     color: #8e76af;
-    text-align: center;
     padding: 0 0 3em;
 }
 .contact3 {
@@ -683,35 +686,24 @@ p {
     width: 14em;
 }
 .media-icon {
-    width: 4em;
+    width: 3em;
     margin: 0 .3em;
 }
 .background-2 {
-    background-image: url(../images/background-1.jpg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+
     overflow:hidden; 
 }
 .background-3 {
-    background-image: url(../images/background-2.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+
     overflow:hidden; 
 }
 .background-4 {
-    background-image: url(../images/background-3b.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+
     overflow:hidden; 
 }
 .background-5 {
-    background-image: url(../images/background-4.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+
+
     overflow:hidden; 
 }
 .front {
@@ -722,7 +714,6 @@ p {
 }
 .gallery {
     position: relative;
-    top: 5em;
     overflow: hidden; 
 }
 .logo {
@@ -738,9 +729,35 @@ p {
     position: relative;
     color: #8e76af;
     text-align: center;
-    top:10em;
 }
-
+.nav {
+    list-style-type: none;
+    position:absolute;
+    width: 15em;
+    height:100%;
+    top: 0;
+    right: -18em;
+    z-index: 0;
+    margin: 0;
+    padding: 5em 0 0;
+}
+.nav a { 
+    text-decoration: none;
+}
+.nav li{
+    padding-bottom: .5em;
+}
+.nav: .nav-current:visited{
+    color:white;
+}
+.nav-check {
+    position: absolute;
+    top: -35em;   
+}
+.nav-check:checked ~ .nav {
+    right: -10.7em;
+    transition: all .25s linear;
+}
 }
 @media only screen and (min-width: 60em) {
 
@@ -771,53 +788,42 @@ p {
     margin: 0 auto 1em;
 }
 .background-2 {
-    background-image: url(../images/background-1.jpg);
+
     overflow:hidden;
     position: relative;
-    background-size: contain;
-    background-position: center;
+
     height: 23em;
 }
 .background-3 {
-    background-image: url(../images/background-2.png);
+
     position: relative;
-    background-size: contain;
-    background-position: center;
+
     height: 23em;
 }
 .background-4 {
-    background-image: url(../images/background-3b.png);
-    background-repeat: no-repeat;
+
     position: relative;
-    background-size: contain;
-    background-position: center;
+
     height: 23em;
 }
 .background-5 {
-    background-image: url(../images/background-4.png);
+
     position: relative;
     overflow: hidden;
-    background-size: contain;
-    background-position: center;
+
     height: 23em;
 }
 .background-6 {
-    background-image: url(../images/background-5.png);
     position: relative;
     overflow: hidden;
-    background-size: contain;
-    background-position: center;
+
     height: 23em;
-    background-image: no-repeat;
 }
 .background-7 {
-    background-image: url(../images/background-6.png);
+
     position: relative;
     overflow: hidden;
-    background-size: contain;
-    background-position: center;
     height: 23em;
-    background-image: no-repeat;
 }
 .front {
     padding: 1em 3em 3em;
@@ -832,100 +838,93 @@ p {
     position: relative;
     display: block;
     background-color: white;
-    height: 50em;
 }
 .button1 {
     display: block;
     text-align: right;
-    height: 22em;
     position: relative;
     top: .5em;
 }
 .button1:hover {
-    background-color: rgba(148, 124, 181, .6);
+    transform: scale(.8);
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     margin-bottom: auto;
-    width: 30em;
+    z-index: 10;
 }
 .button2 {
     display: block;
     text-align: right;
-    height: 22em;
     position: relative;
     top: .5em;
 }
 .button2:hover {
-    background-color: rgba(148, 124, 181, .6);
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     margin-bottom: auto;
-    width: 30em;
+    transform: scale(.8);
+    z-index: 9;
 }
 .button3 {
     display: block;
     text-align: right;
-    height: 22em;
     position: relative;
     top: .5em;
 }
 .button3:hover {
-    background-color: rgba(148, 124, 181, .6);
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     margin-bottom: auto;
-    width: 30em;
+    transform: scale(.8);
+    z-index: 8;
 }
 .button4 {
     display: block;
     text-align: right;
-    height: 22em;
     position: relative;
     top: .5em;
 }
 .button4:hover {
-    background-color: rgba(148, 124, 181, .6);
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     margin-bottom: auto;
-    width: 30em;
+    transform: scale(.8);
+    z-index: 7;
 }
 .button5 {
     display: block;
     text-align: right;
-    height: 22em;
     position: relative;
     top: .5em;
 }
 .button5:hover {
-    background-color: rgba(148, 124, 181, .6);
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     margin-bottom: auto;
-    width: 30em;
+    transform: scale(.8);
+    z-index: 9;
 }
 .button6 {
     display: block;
     text-align: right;
-    height: 22em;
     position: relative;
     top: .5em;
 }
 .button6:hover {
-    background-color: rgba(148, 124, 181, .6);
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     margin-bottom: auto;
-    width: 30em;
+    transform: scale(.8);
+    z-index: 5;
 }
 .media-icon {
-    width: 4em;
+    width: 3em;
     margin: 0 .3em;
 }
 .social {
@@ -935,59 +934,42 @@ p {
     transition: all 1s linear;
     text-align: center;
     overflow: hidden;
-    right: 3em;
-    width: 4em;
-}
-.nav-btn {
-    position: absolute;
-    top:1em;
-    right: .5em;
-    width:5em;
-    border: 0;
-    line-height: 0;
-    display: inline-block;
-    transition: all .25s linear;
-    margin: 1em;
-    z-index: 4;
-    background: none;
-}
-
-.burger {
-    width: 3em;
-    margin: 0;
-    background: none;
+    right: 2em;
+    width: 3.5em;
 }
 .nav {
     list-style-type: none;
     position:absolute;
     width: 15em;
     height:100%;
-    top: 0;
-    right: -15em;
+    top: -4em;
+    right: -10.7em;
     z-index: 0;
     margin: 0;
     padding: 5em 0 0;
-}
-.is-open {
-    position: absolute;
-    right: 10em;
+    display: inline-block;
 }
 .nav a { 
     text-decoration: none;
 }
 .nav li{
     padding-bottom: 1em;
-}
-.nav li a:hover{ 
-    color:#43572E;
-}
-.nav li a:active{
-    color: white;
-}
+}  
 .nav: .nav-current:visited{
     color:white;
 }
-
+.nav-check {
+    position: absolute;
+    top: -35em;
+    display: none;
+}
+.nav-check:checked ~ .nav {
+    right: -10.7em;
+    transition: all .25s linear;
+}
+.nav-btn {
+    display: none;
+}
 .logo {
   width: 14.5em;
   position: absolute;
@@ -999,9 +981,8 @@ p {
     overflow: hidden;
     width:100%;
     position: relative;
-    color: #8e76af;
+    color: white;
     text-align: center;
-    top:5em;
     padding: 0 0 3em;
 }
 .home {
