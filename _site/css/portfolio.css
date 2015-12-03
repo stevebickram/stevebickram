@@ -453,7 +453,7 @@ footer {
 }
 .email-link {
     text-decoration: none;
-    color: #8e76af;
+    color: white;
 }
 .small-banner {
     width: 100%;
@@ -482,7 +482,6 @@ footer {
     margin: 0;
     padding: 5em 0 0;
     transition: all .25s linear;
-
 }
 .nav a { 
     text-decoration: none;
@@ -499,6 +498,31 @@ footer {
 }
 .nav-check:checked ~ .nav {
     right: -10.7em;
+}
+.nav2 {
+    text-align: right;
+    list-style-type: none;
+    height:100%;
+    position: relative;
+    top: -3em; 
+    right: 1em;
+    float: right;
+    z-index: 2;
+    margin: 0;
+    padding: 5em 0 0;
+    transition: all .25s linear;
+}
+.nav2 a { 
+    text-decoration: none;
+}
+.nav2 li{
+    padding-bottom: .5em;
+}
+.nav2: .nav2-current:visited{
+    color:white;
+}
+.nav-item2 {
+    width: 4em;
 }
 .front {
     padding: 1em 1em 3em;
@@ -620,8 +644,9 @@ footer {
 .contact {
     overflow: hidden;
     position: relative;
-    color: #8e76af;
+    color: white;
     padding: 0 0 3em;
+    left: 1.5em;
 }
 .contact3 {
     overflow: hidden;
@@ -632,7 +657,7 @@ footer {
 }
 .arrow2 {
     width: 3em;
-    padding-bottom: 4em;
+    margin: 1.5em 1em;   
 }
 .illustration-1 {
   position: relative;
@@ -727,7 +752,7 @@ footer {
     overflow: hidden;
     width:100%;
     position: relative;
-    color: #8e76af;
+    color: white;
     text-align: center;
 }
 .nav {
