@@ -688,6 +688,9 @@ footer {
     width: 100%;
     display: none;
 }
+.intro-p {
+    padding: 0 6em;    
+}
 .back {
     transform: translateZ(-1px) scale(2);
     -webkit-transform: translateZ(-1px) scale(2);
@@ -721,21 +724,16 @@ footer {
     margin: 0 .3em;
 }
 .background-2 {
-
-    overflow:hidden; 
+ overflow:hidden; 
 }
 .background-3 {
-
-    overflow:hidden; 
+overflow:hidden; 
 }
 .background-4 {
-
-    overflow:hidden; 
+overflow:hidden; 
 }
 .background-5 {
-
-
-    overflow:hidden; 
+ overflow:hidden; 
 }
 .front {
     padding: 3em 1em 3em;
@@ -863,7 +861,7 @@ footer {
     top:1em;    
 }
 .intro-p {
-    padding: none;    
+    padding: 0;    
 }
 .gallery {
     position: relative;
