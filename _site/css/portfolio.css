@@ -419,6 +419,9 @@ p {
 footer {
     background-color: #9f5afa;
 }
+header {
+    background-color: #9f5afa;  
+}
 .title {
     width: 15em;
     display: block;
@@ -524,6 +527,34 @@ footer {
 .nav-item2 {
     width: 4em;
 }
+.nav-header {
+    height: 6em;
+}
+.nav3 {
+    text-align: right;
+    list-style-type: none;
+    height:80%;
+    width: 18em;
+    position: relative;
+    top: -3.5em; 
+    z-index: 2;
+    margin: auto;
+    margin-right: 0;
+    padding: 5em 0 0;
+    transition: all .25s linear;
+}
+.nav3 a { 
+    text-decoration: none;
+}
+.nav3 li{
+    padding-bottom: .5em;
+}
+.nav3: .nav2-current:visited{
+    color:white;
+}
+.nav-item3 {
+    width: 4em;
+}
 .front {
     padding: 1em 1em 3em;
     position: relative;
@@ -538,12 +569,21 @@ footer {
     font-size: 1em;
     text-align: left;
 }
+.intro-type {
+    text-align: center;
+    padding: 1em 3em;
+}
+.logo2{
+    position: absolute;
+    width:8em;
+    margin: 0 1.5em;
+}
 .logo {
-  width: 10em;
-  position: absolute;
-  z-index: 4;
-  top: 1.5em;
-  left: 1em;
+    width: 10em;
+    position: absolute;
+    z-index: 4;
+    top: 1.5em;
+    left: 1em;
 }
 .gallery {
     position: relative;
@@ -669,10 +709,9 @@ footer {
   top:-3.5em;
 }
 .quote {
-  position: relative;
-  top: ; 1em
+
   color: #9f5afa;
-  text-decoration-color: #9f5afa;
+  padding: 3em;
 }
 @media only screen and (min-width: 25em) {
     
