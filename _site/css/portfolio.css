@@ -422,6 +422,9 @@ footer {
 header {
     background-color: #9f5afa;  
 }
+.no-csstransforms h1 {
+  
+}
 .title {
     width: 15em;
     display: block;
@@ -534,7 +537,7 @@ header {
     text-align: right;
     list-style-type: none;
     height:80%;
-    width: 18em;
+    width: 14em;
     position: relative;
     top: -3.5em; 
     z-index: 2;
