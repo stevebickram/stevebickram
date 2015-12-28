@@ -588,6 +588,7 @@ header {
     top: 1.5em;
     left: 1em;
 }
+
 .gallery {
     position: relative;
     background-color: white;
@@ -629,6 +630,16 @@ header {
 .background-7 {
 
     position: relative;
+}
+.background-8 {
+
+    position: relative;
+    margin: 0;
+}
+.background-9 {
+
+    position: relative;
+    margin: 0;
 }
 .button1 {
     display: block;
@@ -684,6 +695,31 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+.button7 {
+    display: block;
+    text-align: right;
+}
+.button7:hover {
+    transform: scale(.8);
+    margin-left: auto;
+    margin-right: auto;
+}.button8 {
+    display: block;
+    text-align: right;
+}
+.button8:hover {
+    transform: scale(.8);
+    margin-left: auto;
+    margin-right: auto;
+}.button9 {
+    display: block;
+    text-align: right;
+}
+.button9:hover {
+    transform: scale(.8);
+    margin-left: auto;
+    margin-right: auto;
+}
 .contact {
     overflow: hidden;
     position: relative;
@@ -704,17 +740,20 @@ header {
     margin: 1.5em 1em;   
 }
 .illustration-1 {
-  position: relative;
-  top:-1em;
+  
 }
 .illustration-2 {
   position: relative;
-  top:-3.5em;
+
 }
 .quote {
 
   color: #9f5afa;
   padding: 3em;
+}
+.type-2 {
+    position: relative;
+    width: 100%;
 }
 @media only screen and (min-width: 25em) {
     
@@ -1068,5 +1107,10 @@ overflow:hidden;
     position: relative;
     color: #8e76af;
     text-align: center;
+}
+.type-2 {
+    position: absolute;
+    width: 50%;
+    top: 27em;
 }
 }
