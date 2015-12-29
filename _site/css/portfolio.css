@@ -576,6 +576,9 @@ header {
     text-align: center;
     padding: 1em 3em;
 }
+.poster-5 {
+  padding: 2em 1em;
+}
 .logo2{
     position: absolute;
     width:8em;
@@ -588,7 +591,9 @@ header {
     top: 1.5em;
     left: 1em;
 }
-
+.scrubber-type {
+    width: 100%; 
+}
 .gallery {
     position: relative;
     background-color: white;
@@ -871,7 +876,11 @@ overflow:hidden;
 }
 @media only screen and (min-width: 60em) {
 
-
+.scrubber {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .back3 {
     transform: translateZ(-1px) scale(2);
     -webkit-transform: translateZ(-1px) scale(2);
@@ -1112,5 +1121,10 @@ overflow:hidden;
     position: absolute;
     width: 50%;
     top: 27em;
+}
+.scrubber-type {
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
 }
 }
