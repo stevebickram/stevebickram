@@ -36,10 +36,12 @@ p {
     text-align: center;   
 }
 footer {
-    background-color: #9f5afa;
+    background-color: black;
 }
 header {
-    background-color: #9f5afa;  
+    background-color: black;  
+    height: 8.5em;
+    text-align: right;
 }
 .no-csstransforms h1 {
   
@@ -88,7 +90,9 @@ header {
     width: 3em;
     margin: .4em .3em;
 }
-.nav-btn {
+.home {
+    width:3em;
+}.nav-btn {
     position: absolute;
     z-index: 4;
     cursor:pointer ; 
@@ -127,15 +131,12 @@ header {
 .nav2 {
     text-align: right;
     list-style-type: none;
-    height:100%;
     position: relative;
-    top: -3em; 
     right: 1em;
     float: right;
     z-index: 2;
     margin: 0;
-    padding: 5em 0 0;
-    transition: all .25s linear;
+    
 }
 .nav2 a { 
     text-decoration: none;
@@ -177,11 +178,21 @@ header {
 .nav-item3 {
     width: 4em;
 }
+.page {
+    position: relative;
+    top: -5em;
+}
 .front {
     padding: 1em 1em 3em;
     position: relative;
     z-index: 2;
     background-color: white;
+}
+.gallery-title {
+  text-align: center;
+  position: relative;
+  top: -3em;
+  color: white;
 }
 .gallery-intro {
     padding: 1em 1em 3em;
@@ -193,15 +204,24 @@ header {
 }
 .intro-type {
     text-align: center;
-    padding: 1em 3em;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -1.5em;
 }
-.poster-5 {
+.poster {
   padding: 2em 1em;
+}
+.poster2 {
+  width: 70%; 
 }
 .logo2{
     position: absolute;
     width:8em;
     margin: 0 1.5em;
+    right: 85%;
+    top: 1.2em;
 }
 .logo {
     width: 10em;
@@ -223,8 +243,7 @@ header {
 .home {
     text-align: center;
     color: rgba(148, 124, 181, 1);
-    text-decoration: none;
-    margin: 30% 45%;
+
 }
 .background-2 {
     overflow: hidden;
@@ -270,7 +289,7 @@ header {
     text-align: right;
 }
 .button1:hover {
-    transform: scale(.8);
+    transform: scale(1.15);
     margin-left: auto;
     margin-right: auto;
 }
@@ -279,7 +298,7 @@ header {
     text-align: right;
 }
 .button2:hover {
-    transform: scale(.8);
+    transform: scale(1.15);
     margin-left: auto;
     margin-right: auto;
 }
@@ -288,7 +307,7 @@ header {
     text-align: right;
 }
 .button3:hover {
-    transform: scale(.8);
+    transform: scale(1.15);
     margin-left: auto;
     margin-right: auto;
 }
@@ -297,7 +316,7 @@ header {
     text-align: right;
 }
 .button4:hover {
-    transform: scale(.8);
+    transform: scale(1.15);
     margin-left: auto;
     margin-right: auto;
 }
@@ -306,7 +325,7 @@ header {
     text-align: right;
 }
 .button5:hover {
-    transform: scale(.8);
+    transform: scale(1.15);
     margin-left: auto;
     margin-right: auto;
 }
@@ -315,7 +334,7 @@ header {
     text-align: right;
 }
 .button6:hover {
-    transform: scale(.8);
+    transform: scale(1.15);
     margin-left: auto;
     margin-right: auto;
 }
@@ -324,7 +343,7 @@ header {
     text-align: right;
 }
 .button7:hover {
-    transform: scale(.8);
+    transform: scale(1.15);
     margin-left: auto;
     margin-right: auto;
 }.button8 {
@@ -332,7 +351,7 @@ header {
     text-align: right;
 }
 .button8:hover {
-    transform: scale(.8);
+    transform: scale(1.15);
     margin-left: auto;
     margin-right: auto;
 }.button9 {
@@ -340,7 +359,7 @@ header {
     text-align: right;
 }
 .button9:hover {
-    transform: scale(.8);
+    transform: scale(1.15);
     margin-left: auto;
     margin-right: auto;
 }
@@ -351,6 +370,21 @@ header {
     color: white;
     padding: 0 0 3em;
     left: 1.5em;
+}
+.contact-link {
+    position: relative;
+    text-align: center;
+    color: white;
+    right: 2em;
+    width: 9em;
+    top: 3.5em;
+}
+.link-item {
+    width: 5em;
+    letter-spacing: normal;
+}
+.contact-link a { 
+    text-decoration: none;
 }
 .contact3 {
     overflow: hidden;
@@ -394,7 +428,12 @@ header {
     display: none;
 }
 .intro-p {
-    padding: 0 6em;    
+    padding: 0 6em; 
+    text-align: center;
+}
+.intro-p2 {
+    padding: 0 6em; 
+    text-align: center;
 }
 .back {
     transform: translateZ(-1px) scale(2);
@@ -581,10 +620,9 @@ overflow:hidden;
     display: block;
     text-align: right;
     position: relative;
-    top: .5em;
 }
 .button1:hover {
-    transform: scale(.8);
+    transform: scale(1.15);
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -595,70 +633,65 @@ overflow:hidden;
     display: block;
     text-align: right;
     position: relative;
-    top: .5em;
 }
 .button2:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     margin-bottom: auto;
-    transform: scale(.8);
+    transform: scale(1.15);
     z-index: 9;
 }
 .button3 {
     display: block;
     text-align: right;
     position: relative;
-    top: .5em;
 }
 .button3:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     margin-bottom: auto;
-    transform: scale(.8);
+    transform: scale(1.15);
     z-index: 8;
 }
 .button4 {
     display: block;
     text-align: right;
     position: relative;
-    top: .5em;
 }
 .button4:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     margin-bottom: auto;
-    transform: scale(.8);
+    transform: scale(1.15);
     z-index: 7;
 }
 .button5 {
     display: block;
     text-align: right;
     position: relative;
-    top: .5em;
 }
 .button5:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     margin-bottom: auto;
-    transform: scale(.8);
+    transform: scale(1.15);
     z-index: 9;
 }
 .button6 {
     display: block;
     text-align: right;
     position: relative;
-    top: .5em;
 }
 .button6:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     margin-bottom: auto;
-    transform: scale(.8);
+    transform: scale(1.15);
     z-index: 5;
 }
 .media-icon {
