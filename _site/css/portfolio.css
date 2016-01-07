@@ -428,11 +428,12 @@ header {
   
 }
 .title {
-    width: 15em;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin: 0 auto 1em;
+    padding: 3em 0 0;
 }
 .skip-links {
     margin: 0;
@@ -473,7 +474,11 @@ header {
 }
 .home {
     width:3em;
-}.nav-btn {
+}
+.intro-words {
+    padding: 1em 0 4em;
+}
+.nav-btn {
     position: absolute;
     z-index: 4;
     cursor:pointer ; 
@@ -514,6 +519,7 @@ header {
     list-style-type: none;
     position: relative;
     right: 1em;
+    top: 2em;
     float: right;
     z-index: 2;
     margin: 0;
@@ -572,8 +578,9 @@ header {
 .gallery-title {
   text-align: center;
   position: relative;
-  top: -3em;
-  color: white;
+  top: 1em;
+  color: black;
+  width: 7em;
 }
 .gallery-intro {
     padding: 1em 1em 3em;
@@ -581,15 +588,31 @@ header {
 .intro-p {
     padding: 0 2em;
     font-size: 1em;
-    text-align: left;
+    text-align: center;
 }
 .intro-type {
     text-align: center;
-    width: 40%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: -1.5em;
+    top: 1.5em;
+}
+.intro-p1 {
+    text-align: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: rgba(130, 84, 201, .8);
+}
+.intro-p2 {
+    text-align: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .poster {
   padding: 2em 1em;
@@ -670,79 +693,19 @@ header {
     text-align: right;
 }
 .button1:hover {
-    transform: scale(1.15);
+    transform: scale(1.03);
     margin-left: auto;
     margin-right: auto;
 }
-.button2 {
-    display: block;
+
+.button10 {
     text-align: right;
 }
-.button2:hover {
-    transform: scale(1.15);
+.button10:hover {
+    transform: scale(1.03);
     margin-left: auto;
     margin-right: auto;
-}
-.button3 {
-    display: block;
-    text-align: right;
-}
-.button3:hover {
-    transform: scale(1.15);
-    margin-left: auto;
-    margin-right: auto;
-}
-.button4 {
-    display: block;
-    text-align: right;
-}
-.button4:hover {
-    transform: scale(1.15);
-    margin-left: auto;
-    margin-right: auto;
-}
-.button5 {
-    display: block;
-    text-align: right;
-}
-.button5:hover {
-    transform: scale(1.15);
-    margin-left: auto;
-    margin-right: auto;
-}
-.button6 {
-    display: block;
-    text-align: right;
-}
-.button6:hover {
-    transform: scale(1.15);
-    margin-left: auto;
-    margin-right: auto;
-}
-.button7 {
-    display: block;
-    text-align: right;
-}
-.button7:hover {
-    transform: scale(1.15);
-    margin-left: auto;
-    margin-right: auto;
-}.button8 {
-    display: block;
-    text-align: right;
-}
-.button8:hover {
-    transform: scale(1.15);
-    margin-left: auto;
-    margin-right: auto;
-}.button9 {
-    display: block;
-    text-align: right;
-}
-.button9:hover {
-    transform: scale(1.15);
-    margin-left: auto;
-    margin-right: auto;
+    background-image: url("../images/otd-5.jpg")
 }
 .contact {
     overflow: hidden;
@@ -787,7 +750,7 @@ header {
 }
 .quote {
 
-  color: #9f5afa;
+  color: rgba(130, 84, 201, 1);
   padding: 3em;
 }
 .type-2 {
@@ -803,7 +766,22 @@ header {
     width:100%;
     display: block;
 }
-
+.gallery-title {
+  text-align: center;
+  position: relative;
+  top: -3.3em;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}  
+.intro-type {
+    text-align: center;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -1.5em;
+}
 .small-banner {
     width: 100%;
     display: none;
@@ -811,15 +789,21 @@ header {
 .intro-p {
     padding: 0 6em; 
     text-align: center;
+    margin: 0;
 }
 .intro-p1 {
-    padding: 0 6em; 
     text-align: center;
-    width: 
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    font-size: 23px;
 }
 .intro-p2 {
-    padding: 0 6em; 
     text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .back {
     transform: translateZ(-1px) scale(2);
@@ -838,11 +822,13 @@ header {
     display: block;
 }
 .title {
-    width: 35%;
+    width: 45%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 3em 0 0;
 }
+
 .social {
     position: absolute;
     right:1em;
@@ -866,7 +852,7 @@ overflow:hidden;
  overflow:hidden; 
 }
 .front {
-    padding: 3em 1em 3em;
+    padding: 1em 1em 3em;
     position: relative;
     z-index: 2;
     top:1em; 
@@ -920,6 +906,29 @@ overflow:hidden;
 }
 @media only screen and (min-width: 60em) {
 
+.intro-type {
+    text-align: center;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -1.5em;
+}
+.intro-p1 {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    padding: 2em 0 2em;
+}
+.intro-p2 {
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 6em;
+}
 .scrubber {
     width: 30%;
     margin-left: auto;
@@ -944,11 +953,12 @@ overflow:hidden;
     display: none;
 }
 .title {
-    width: 25%;
+    width: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin: 0 auto 1em;
+    margin: 0 auto;
+    padding: 2em 0 2em; 
 }
 .background-2 {
 
@@ -1014,71 +1024,6 @@ overflow:hidden;
     margin-top: 0;
     margin-bottom: auto;
     z-index: 10;
-}
-.button2 {
-    display: block;
-    text-align: right;
-    position: relative;
-}
-.button2:hover {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: auto;
-    transform: scale(1.15);
-    z-index: 9;
-}
-.button3 {
-    display: block;
-    text-align: right;
-    position: relative;
-}
-.button3:hover {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: auto;
-    transform: scale(1.15);
-    z-index: 8;
-}
-.button4 {
-    display: block;
-    text-align: right;
-    position: relative;
-}
-.button4:hover {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: auto;
-    transform: scale(1.15);
-    z-index: 7;
-}
-.button5 {
-    display: block;
-    text-align: right;
-    position: relative;
-}
-.button5:hover {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: auto;
-    transform: scale(1.15);
-    z-index: 9;
-}
-.button6 {
-    display: block;
-    text-align: right;
-    position: relative;
-}
-.button6:hover {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: auto;
-    transform: scale(1.15);
-    z-index: 5;
 }
 .media-icon {
     width: 3em;
