@@ -614,11 +614,79 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+.button1 {
+    display: block;
+    text-align: right;
+}
+.button1:hover {
+    transform: scale(1.15);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button10 {
+    text-align: right;
+    transition: all .25s linear;
+}
+.button10:hover {
+    transform: scale(1.03);
+    margin-left: auto;
+    margin-right: auto;
+}
+.button10:hover .poster {
+  display: none; 
+}
+.button10:active .poster2 {
+  width: 125%;
+  transition: all .75s linear;
+}
+.button10:hover .poster4 {
+  width: 125%;
+}
+.button10:hover .poster3 {
+  width: 125%;
+}
 .poster {
-  padding: 2em 1em;
+  padding: 2em 9em;
+  display:block;
+  transition: all .75s linear;
 }
 .poster2 {
-  width: 70%; 
+  width: 0;
+  position: relative;
+  left: 25%;
+}
+.poster2b {
+  width: 0%;
+  position: relative;
+  left: 15%;
+  transition: all .75s linear;
+}
+.poster4 {
+  width: 0%;
+  position: relative;
+  left: 25%;
+  z-index: 10;
+  transition: all .75s linear;
+}
+.poster3 {
+  width: 0%;
+  position: relative;
+  right: 80%;
+  transition: all .75s linear;
+}
+.poster4 {
+  width: 0%;
+  position: relative;
+  left: 15%;
+  transition: all 1s linear;
+}
+.gallery-check {
+    position: absolute;
+}
+.gallery-check:checked ~ .poster2 {
+    right: -10.7em;
+    transition: all .25s linear;
 }
 .logo2{
     position: absolute;
@@ -687,25 +755,6 @@ header {
 
     position: relative;
     margin: 0;
-}
-.button1 {
-    display: block;
-    text-align: right;
-}
-.button1:hover {
-    transform: scale(1.03);
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.button10 {
-    text-align: right;
-}
-.button10:hover {
-    transform: scale(1.03);
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url("../images/otd-5.jpg")
 }
 .contact {
     overflow: hidden;
