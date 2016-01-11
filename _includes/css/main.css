@@ -200,6 +200,8 @@ header {
   top: 1em;
   color: black;
   width: 7em;
+  margin-left: auto;
+  margin-right: auto;
 }
 .gallery-intro {
     padding: 1em 1em 3em;
@@ -211,7 +213,7 @@ header {
 }
 .intro-type {
     text-align: center;
-    width: 95%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -252,67 +254,25 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
-.button10:hover .poster {
-  display: none; 
+.posterc {
+    height: auto; 
+    padding: 2em 1em;
+    display:block;
+    transition: all 1s linear;
 }
-.button10:active .poster2 {
-  width: 125%;
-  transition: all .75s linear;
-}
-.button10:hover .poster4 {
-  width: 125%;
-}
-.button10:hover .poster3 {
-  width: 125%;
-}
+
 .poster {
-  padding: 2em 9em;
+  padding: 2em 1em;
   display:block;
-  transition: all .75s linear;
-}
-.poster2 {
-  width: 0;
-  position: relative;
-  left: 25%;
-}
-.poster2b {
-  width: 0%;
-  position: relative;
-  left: 15%;
-  transition: all .75s linear;
-}
-.poster4 {
-  width: 0%;
-  position: relative;
-  left: 25%;
-  z-index: 10;
-  transition: all .75s linear;
-}
-.poster3 {
-  width: 0%;
-  position: relative;
-  right: 80%;
-  transition: all .75s linear;
-}
-.poster4 {
-  width: 0%;
-  position: relative;
-  left: 15%;
   transition: all 1s linear;
 }
-.gallery-check {
-    position: absolute;
-}
-.gallery-check:checked ~ .poster2 {
-    right: -10.7em;
-    transition: all .25s linear;
-}
+
 .logo2{
     position: absolute;
     width:8em;
     margin: 0 1.5em;
-    right: 85%;
     top: 1.2em;
+    left: 0;
 }
 .logo {
     width: 10em;
