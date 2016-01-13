@@ -565,6 +565,35 @@ header {
 .nav-item3 {
     width: 4em;
 }
+.nav5 {
+    position: relative;
+	top: -1em;
+	padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    align-items: center;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 1.5em;
+	letter-spacing: 3px;
+}
+.nav5 a { 
+    color: white;
+    text-decoration: none;
+}
+.nav5 li a:hover{ 
+    color: rgba(130, 84, 201, .8);
+
+}
+.nav5 li a:active{
+    color: rgba(130, 84, 201, .8);
+}
+
+.nav5: .nav5-current:visited{
+    color: rgba(130, 84, 201, .8);
+}
 .page {
     position: relative;
     top: -5em;
